@@ -15,7 +15,7 @@
 
 <style>
   .bg-custom-image {
-    background-image: url("./assets/bg.gif");
+    background-image: url("./assets/bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
