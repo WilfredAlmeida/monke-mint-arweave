@@ -6,31 +6,9 @@
     <title>MonkeMint</title>
   </svelte:head>
 
-<main class="bg-custom-image">
+<main class="bg-gradient-to-br from-purple-500 via-blue-500 to-violet-500 to-pink-500">
   
   <div class="card">
     <Counter />
   </div>
 </main>
-
-<style>
-  .bg-custom-image {
-    background-image: url("./assets/bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat;
-    height: 100vh;
-  }
-
-  .bg-custom-image::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: inherit;
-    background-size: cover;
-    background-position: inherit;
-    background-repeat: inherit;
-    filter: blur(5px);
-    z-index: -3;
-  }
-</style>
